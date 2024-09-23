@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+a,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* buttons */
+.btn1 {
+  color: #555555;
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid #08b2e3;
+  outline: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background: #08b2e3;
+    color: #fff;
+    cursor: pointer;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.btn2 {
+  color: #fff;
+  background: #08b2e3;
+  border-radius: 25px;
+  border: 1px solid #08b2e3;
+  outline: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+
+  a {
+    color: #fff;
+  }
+
+  &:hover {
+    background: transparent;
+    color: #08b2e3;
+    cursor: pointer;
+
+    a {
+      color: #08b2e3;
+    }
+  }
+}
+
+.btn3 {
+  color: #fff;
+  background: #fb5012;
+  border-radius: 25px;
+  border: 1px solid #fb5012;
+  outline: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+
+  a {
+    color: #fff;
+  }
+
+  &:hover {
+    background: transparent;
+    color: #fb5012;
+    cursor: pointer;
+
+    a {
+      color: #fb5012;
+    }
+  }
+}
+
+.h1 {
+  @apply text-6xl xl:text-[4rem] xl:leading-[5rem] tracking-[-2px] font-bold text-[333];
+}
+
+.h2 {
+  @apply text-3xl font-bold;
+}
+.h3 {
+  @apply text-3xl font-bold;
+}
+.h4 {
+  @apply text-[22px] font-semibold;
+}
+.subtitle {
+  @apply text-lg mb-6 font-light;
+}
+.section-title {
+  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 text-secondary hover:text-primary transition-colors duration-300 ease-in-out cursor-none;
+}
+
+.marquee-img{
+  transition: .3s ease-in-out;
+}
+.marquee-img:hover{
+  transform: scale(1.1);
+}

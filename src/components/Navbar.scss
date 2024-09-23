@@ -1,0 +1,27 @@
+.navLink {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #08b2e3;
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover::before {
+    width: 100%;
+  }
+}
+
+.activeLink::before {
+  width: 100%;
+}
+.shadow-custom {
+  box-shadow: 0 4px 10px rgba(8, 178, 227, 0.085);
+}
