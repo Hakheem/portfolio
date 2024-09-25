@@ -17,33 +17,37 @@ import uniwebsite from "../assets/uniwebsite.jpg";
 import mongodb from "../assets/mongodb.png";
 import ecommerce from "../assets/ecommerce.jpeg";
 import chatapp from "../assets/chatapp.png";
-import pizzaville from '../assets/pizzaville.png';
-import myto from '../assets/myto.png';
-import medilop from '../assets/medilop.png';
+import pizzaville from "../assets/pizzaville.png";
+import myto from "../assets/myto.png";
+import medilop from "../assets/medilop.png";
+import email from "../assets/email.svg";
+import phone from "../assets/phone.svg";
 
 const images = {
-  heroImg,
-  myto,
-  figma,
-  medilop,
-  git,
-  node,
-  python,
-  react,
-  redux,
-  sass,
-  vue,
-  logo,
-  favicon,
-  example,
-  javascript,
-  tailwind,
-  trendify,
-  uniwebsite,
-  mongodb,
-  ecommerce,
-  pizzaville,
-  chatapp,
+	heroImg,
+	myto,
+	figma,
+	medilop,
+	git,
+	node,
+	python,
+	react,
+	redux,
+	sass,
+	vue,
+	logo,
+	favicon,
+	example,
+	javascript,
+	tailwind,
+	trendify,
+	uniwebsite,
+	mongodb,
+	ecommerce,
+	pizzaville,
+	chatapp,
+	email,
+	phone,
 };
 
 export default images;
