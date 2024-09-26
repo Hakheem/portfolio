@@ -82,7 +82,7 @@ const About = () => {
         {/* Tabs */}
         <div className="flex-1">
           {/* Tabs Header */}
-          <div className="border-gray-300 rounded-full mb-4 p-[.2rem] items-center md:border lg:border">
+          <div className="border-gray-300 rounded-full mb-4 p-[.2rem] max-w-[520px] items-center md:border lg:border">
             <div className="w-full grid xl:grid-cols-3 xl:max-w-[520px] gap-4 md:gap-0">
               <button
                 onClick={() => setActiveTab("bio")}

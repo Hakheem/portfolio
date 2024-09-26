@@ -9,12 +9,14 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import RoadMate from "./pages/projects/RoadMate";
 import Acadix from "./pages/projects/Acadix";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider> 
       <div>
         <Navbar/>
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
