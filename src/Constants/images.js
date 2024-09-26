@@ -13,7 +13,7 @@ import logo from "../assets/logo.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import trendify from "../assets/trendify.png";
-import uniwebsite from "../assets/uniwebsite.jpg";
+import uniwebsite from "../assets/uniwebsite.png";
 import mongodb from "../assets/mongodb.png";
 import ecommerce from "../assets/ecommerce.jpeg";
 import chatapp from "../assets/chatapp.png";

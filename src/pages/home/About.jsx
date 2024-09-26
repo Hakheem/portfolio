@@ -134,18 +134,18 @@ const About = () => {
                   and drive success.
                 </p>
                 <marquee behavior="slide" direction="right-left">
-            <div className="flex gap-4">
-              <img src={images.react} className="w-14 marquee-img"/>
-              <img src={images.javascript} className="w-14 marquee-img"/>
-              <img src={images.figma} className="w-14 marquee-img"/>
-              <img src={images.tailwind} className="w-14 marquee-img"/>
-              <img src={images.git} className="w-14 marquee-img"/>
-              <img src={images.sass} className="w-14 marquee-img"/>
-              <img src={images.python} className="w-14 marquee-img"/>
-              <img src={images.node} className="w-14 marquee-img"/>
-              <img src={images.flask} className="w-14 marquee-img"/>
-            </div>
-          </marquee>
+                  <div className="flex gap-4">
+                    <img src={images.react} className="w-14 marquee-img" />
+                    <img src={images.javascript} className="w-14 marquee-img" />
+                    <img src={images.figma} className="w-14 marquee-img" />
+                    <img src={images.tailwind} className="w-14 marquee-img" />
+                    <img src={images.git} className="w-14 marquee-img" />
+                    <img src={images.sass} className="w-14 marquee-img" />
+                    <img src={images.python} className="w-14 marquee-img" />
+                    <img src={images.node} className="w-14 marquee-img" />
+                    <img src={images.flask} className="w-14 marquee-img" />
+                  </div>
+                </marquee>
               </div>
             )}
 

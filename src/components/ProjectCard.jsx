@@ -19,6 +19,9 @@ const ProjectCard = ({ project }) => {
             width={250}
             height={255}
             priority="true"
+            borderTopLeftRadius="lg" 
+            borderTopRightRadius="lg"
+            objectFit="cover"
           />
           <a
             href={project.projectLink}

@@ -67,9 +67,8 @@ const Projects = () => {
       : projects.filter((project) => project.category === category);
 
   return (
-    <section className="min-h-screen pt-12">
-      <div className="container mx-auto">
-        {/* <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">My Projects</h2> */}
+    <section className="min-h-screen pt-8">
+      <div className="container px-[10%] mx-auto">
 
         {/* Tabs */}
         <div className=" mb-12 items-center  ">
@@ -78,7 +77,7 @@ const Projects = () => {
               <button
                 key={index}
                 onClick={() => setCategory(cat)}
-                className={`btn3 text-center py-3 px-6 transition duration-300 ease-in-out rounded-full 
+                className={`btn3 text-center py-2 px-4 transition duration-300 ease-in-out rounded-full 
           ${
             category === cat
               ? "bg-primary text-white border border-primary"
