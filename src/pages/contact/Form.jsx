@@ -33,7 +33,7 @@ const Form = () => {
     }
 
     if (!formData.message.trim()) {
-      formErrors.message = "Atleast say something 😊";
+      formErrors.message = "At least say something 😊";
     }
 
     return formErrors;
@@ -47,7 +47,7 @@ const Form = () => {
       const formDataToSubmit = new FormData(event.target);
       formDataToSubmit.append(
         "access_key",
-        "1a570ddd-3b3a-4326-9f18-c8f537568095"
+        "2e87e991-b0d8-4c45-8efb-b653ffa7a54c"
       );
 
       const object = Object.fromEntries(formDataToSubmit.entries());
@@ -67,6 +67,13 @@ const Form = () => {
         if (result.success) {
           setSubmitted(true);
           console.log("Form successfully submitted", result);
+         
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+          setErrors({});
         } else {
           console.error("Form submission failed", result);
         }
