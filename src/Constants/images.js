@@ -18,18 +18,22 @@ import mongodb from "../assets/mongodb.png";
 import ecommerce from "../assets/ecommerce.jpeg";
 import chatapp from "../assets/chatapp.png";
 import pizzaville from "../assets/pizzaville.png";
+import pizza from "../assets/pizza.png";
 import myto from "../assets/myto.png";
 import medilop from "../assets/medilop.png";
+import myngo from "../assets/myngo.png";
 import email from "../assets/email.svg";
 import phone from "../assets/phone.svg";
 
 const images = {
+	myngo,
 	heroImg,
 	myto,
 	figma,
 	medilop,
 	git,
 	node,
+	pizza,
 	python,
 	react,
 	redux,

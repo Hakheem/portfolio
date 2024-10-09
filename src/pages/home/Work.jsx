@@ -27,7 +27,14 @@ const projects = [
     description: "A deliciously interactive pizza restaurant website where you can customize your own pies.",
     category: "Frontend",
     image: images.pizzaville,
-    projectLink: "https://pizzaville.netlify.app/",
+    projectLink: "https://pizzaville.netlify.app",
+  },
+  {
+    title: "Kheem NGO",
+    description:         "An NGO website designed to promote provision of welfare services to the less fortunate and those in need.",
+    category: "Frontend",
+    image: images.myngo,
+    projectLink: "https://my-ngo.vercel.app",
   },
   {
     title: "M.Y.T.O",

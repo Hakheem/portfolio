@@ -21,6 +21,14 @@ const Projects = () => {
       projectLink: "https://medilop.vercel.app",
     },
     {
+      title: "Kheem NGO",
+      description:
+        "An NGO website designed to promote provision of welfare services to the less fortunate and those in need.",
+      category: "Frontend",
+      image: images.myngo,
+      projectLink: "https://my-ngo.vercel.app",
+    },
+    {
       title: "PizzaVille",
       description:
         "A deliciously interactive pizza restaurant website where you can customize your own pies.",
@@ -31,27 +39,35 @@ const Projects = () => {
     {
       title: "M.Y.T.O",
       description:
-        "The official landing page for MYTO (Milango Ya Tumaini Organisation).",
+        "The official landing page for MYTO (Milango Ya Tumaini Organisation.",
       category: "Frontend",
       image: images.myto,
       projectLink: "https://milango-ya-tumaini.org",
     },
     {
-      title: "RoadMate",
+      title: "Hakheem Tech",
       description:
-        "RoadMate is a transport app offering real-time vehicle tracking, safety ratings, route updates, and cashless payments for safer, more reliable commuting..",
-      category: "UI/UX Design",
-      image: images.example,
-      projectLink: "/projects/Roadmate",
+        "A school website landing page.",
+      category: "Frontend",
+      image: images.uniwebsite,
+      projectLink: "https://hakheem-university.netlify.app",
     },
-    {
-      title: "Acadix",
-      description:
-        "An innovative learning platform connecting students with resources and mentors.",
-      category: "UI/UX Design",
-      image: images.example,
-      projectLink: "/projects/Acadix",
-    },
+    // {
+    //   title: "RoadMate",
+    //   description:
+    //     "RoadMate is a transport app offering real-time vehicle tracking, safety ratings, route updates, and cashless payments for safer, more reliable commuting..",
+    //   category: "UI/UX Design",
+    //   image: images.example,
+    //   projectLink: "/projects/Roadmate",
+    // },
+    // {
+    //   title: "Acadix",
+    //   description:
+    //     "An innovative learning platform connecting students with resources and mentors.",
+    //   category: "UI/UX Design",
+    //   image: images.example,
+    //   projectLink: "/projects/Acadix",
+    // },
   ];
 
   const uniqueCategories = [
