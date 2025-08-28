@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import images from "../../Constants/images";
 import 'swiper/css';
@@ -9,11 +8,32 @@ import ProjectCard from '../../components/ProjectCard';
 
 const projects = [
   {
-    title: "Trendify",
+    title: "Skill Bridge", 
+    description: "A full-stack web app that connects learners with curated resources, featuring user authentication, dynamic content management, and a responsive UI for seamless learning experiences.",
+    category: "Fullstack",
+    image: images.skillbridge,
+    projectLink: "https://skilly-bridge.vercel.app",
+  },
+  {
+    title: "East Side Street Wear", 
+    description: "An e-commerce platform for a streetwear brand, built with modern UI/UX principles, smooth product browsing, secure checkout, and a clean, mobile-first design.",
+    category: "Fullstack",
+    image: images.eastside,
+    projectLink: "https://east-side-urban-frontend.onrender.com",
+  },
+  {
+    title: "Trendify", 
     description: "A convenient shoe delivery app offering a wide selection of footwear delivered straight to your doorstep with ease and efficiency",
     category: "Fullstack",
     image: images.trendify,
     projectLink: "https://trendi-fy.netlify.app",
+  },
+  {
+    title: "Kheem NGO",
+    description:         "An NGO website designed to promote provision of welfare services to the less fortunate and those in need.",
+    category: "Frontend",
+    image: images.myngo,
+    projectLink: "https://my-ngo.vercel.app",
   },
   {
     title: "Medilop",
@@ -28,13 +48,6 @@ const projects = [
     category: "Frontend",
     image: images.pizzaville,
     projectLink: "https://pizzaville.netlify.app",
-  },
-  {
-    title: "Kheem NGO",
-    description:         "An NGO website designed to promote provision of welfare services to the less fortunate and those in need.",
-    category: "Frontend",
-    image: images.myngo,
-    projectLink: "https://my-ngo.vercel.app",
   },
   {
     title: "M.Y.T.O",

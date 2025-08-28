@@ -5,6 +5,20 @@ import images from "../../Constants/images";
 const Projects = () => {
   const projects = [
     {
+      title: "East Side Street Wear", 
+      description: "An e-commerce platform for a streetwear brand, built with modern UI/UX principles, smooth product browsing, secure checkout, and a clean, mobile-first design.",
+      category: "Fullstack",
+      image: images.eastside,
+      projectLink: "https://east-side-urban-frontend.onrender.com",
+    },
+    {
+      title: "Skill Bridge", 
+      description: "A full-stack web app that connects learners with curated resources, featuring user authentication, dynamic content management, and a responsive UI for seamless learning experiences.",
+      category: "Fullstack",
+      image: images.skillbridge,
+      projectLink: "https://skilly-bridge.vercel.app",
+    },
+    {
       title: "Trendify",
       description:
         "A convenient shoe delivery app offering a wide selection of footwear delivered straight to your doorstep with ease and efficiency",
@@ -87,7 +101,7 @@ const Projects = () => {
       <div className="container px-[10%] mx-auto">
 
         {/* Tabs */}
-        <div className=" mb-12 items-center  ">
+        <div className="hidden mb-12 items-center  ">
           <div className="border-gray-200 p-[.2rem] rounded-full flex flex-col justify-center items-center md:flex-row gap-4 lg:border w-fit mx-auto">
             {uniqueCategories.map((cat, index) => (
               <button

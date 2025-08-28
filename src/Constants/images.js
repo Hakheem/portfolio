@@ -22,10 +22,14 @@ import pizza from "../assets/pizza.png";
 import myto from "../assets/myto.png";
 import medilop from "../assets/medilop.png";
 import myngo from "../assets/myngo.png";
+import eastside from "../assets/eastside.png";
+import skillbridge from "../assets/skillbridge.png";
 import email from "../assets/email.svg";
 import phone from "../assets/phone.svg";
 
 const images = {
+	skillbridge,
+	eastside,
 	myngo,
 	heroImg,
 	myto,
